@@ -42,3 +42,9 @@ coll = COLLECT(
     upx_exclude=[],
     name='Tetris',
 )
+app = BUNDLE(
+    coll,
+    name='Tetris.app',
+    icon=None,
+    bundle_identifier='local.tetris',
+)

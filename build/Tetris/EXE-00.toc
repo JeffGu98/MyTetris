@@ -1,71 +1,64 @@
-('G:\\vscode\\code\\Tetris\\build\\Tetris\\Tetris.exe',
+('/Users/shukun/Documents/脚本/MyTetris/build/Tetris/Tetris',
  False,
  False,
  True,
- 'G:\\vscode\\code\\Tetris\\.tetris-build-venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico',
+ None,
  None,
  False,
  False,
- b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
- b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
- b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
- b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
- b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
- b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
- b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
- b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
- b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
- b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
- b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
- b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
- b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
- b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
- b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
- b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
- b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
- b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ None,
  True,
  False,
+ 'x86_64',
  None,
  None,
- None,
- 'G:\\vscode\\code\\Tetris\\build\\Tetris\\Tetris.pkg',
+ '/Users/shukun/Documents/脚本/MyTetris/build/Tetris/Tetris.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
-  ('PYZ-00.pyz', 'G:\\vscode\\code\\Tetris\\build\\Tetris\\PYZ-00.pyz', 'PYZ'),
+  ('PYZ-00.pyz',
+   '/Users/shukun/Documents/脚本/MyTetris/build/Tetris/PYZ-00.pyz',
+   'PYZ'),
+  ('python3.12/lib-dynload/_struct.cpython-312-darwin.so',
+   '/Users/shukun/miniconda3/envs/py312/lib/python3.12/lib-dynload/_struct.cpython-312-darwin.so',
+   'EXTENSION'),
+  ('python3.12/lib-dynload/zlib.cpython-312-darwin.so',
+   '/Users/shukun/miniconda3/envs/py312/lib/python3.12/lib-dynload/zlib.cpython-312-darwin.so',
+   'EXTENSION'),
   ('struct',
-   'G:\\vscode\\code\\Tetris\\build\\Tetris\\localpycs\\struct.pyc',
+   '/Users/shukun/Documents/脚本/MyTetris/build/Tetris/localpycs/struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'G:\\vscode\\code\\Tetris\\build\\Tetris\\localpycs\\pyimod01_archive.pyc',
+   '/Users/shukun/Documents/脚本/MyTetris/build/Tetris/localpycs/pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'G:\\vscode\\code\\Tetris\\build\\Tetris\\localpycs\\pyimod02_importers.pyc',
+   '/Users/shukun/Documents/脚本/MyTetris/build/Tetris/localpycs/pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'G:\\vscode\\code\\Tetris\\build\\Tetris\\localpycs\\pyimod03_ctypes.pyc',
-   'PYMODULE'),
-  ('pyimod04_pywin32',
-   'G:\\vscode\\code\\Tetris\\build\\Tetris\\localpycs\\pyimod04_pywin32.pyc',
+   '/Users/shukun/Documents/脚本/MyTetris/build/Tetris/localpycs/pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
-   'G:\\vscode\\code\\Tetris\\.tetris-build-venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
-   'G:\\vscode\\code\\Tetris\\.tetris-build-venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
    'PYSOURCE'),
   ('pyi_rth_pkgres',
-   'G:\\vscode\\code\\Tetris\\.tetris-build-venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('pyi_rth_pkgutil',
-   'G:\\vscode\\code\\Tetris\\.tetris-build-venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
    'PYSOURCE'),
-  ('tetris', 'G:\\vscode\\code\\Tetris\\tetris.py', 'PYSOURCE')],
+  ('tetris', '/Users/shukun/Documents/脚本/MyTetris/tetris.py', 'PYSOURCE')],
  [],
  False,
  False,
- 1765548808,
- [('runw.exe',
-   'G:\\vscode\\code\\Tetris\\.tetris-build-venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+ 1766143005,
+ [('runw',
+   '/Users/shukun/Documents/脚本/MyTetris/.tetris-build-venv/lib/python3.12/site-packages/PyInstaller/bootloader/Darwin-64bit/runw',
    'EXECUTABLE')],
- 'C:\\Program '
- 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\python311.dll')
+ '/Users/shukun/miniconda3/envs/py312/lib/libpython3.12.dylib')

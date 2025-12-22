@@ -22,6 +22,10 @@ TOP_LEFT_Y = 20
 # 将高分文件放在用户主目录，避免打包后写入 .app 目录权限问题
 HIGHSCORE_FILE = os.path.expanduser('~/.tetris_highscore.json')
 
+# Hold 区域位置（可调整）
+HOLD_PANEL_X = TOP_LEFT_X + PLAY_WIDTH + 30
+HOLD_PANEL_Y = TOP_LEFT_Y + 460
+
 # 形状定义（7 种俄罗斯方块）
 S = [
 	['.....',
@@ -292,8 +296,8 @@ def draw_next_shape(surface, piece):
 def draw_hold_shape(surface, hold_shape):
 	font = pygame.font.SysFont('arial', 22, bold=True)
 	label = font.render('Hold', True, (235, 235, 245))
-	sx = TOP_LEFT_X + PLAY_WIDTH + 30
-	sy = TOP_LEFT_Y + 240
+	sx = HOLD_PANEL_X
+	sy = HOLD_PANEL_Y
 	surface.blit(label, (sx, sy - 30))
 	if not hold_shape:
 		return
